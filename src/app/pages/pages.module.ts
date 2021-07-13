@@ -9,22 +9,19 @@ import { AppRoutingModule } from '../app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { ComponentsModule } from '../components/components.module';
 
-import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
-    PagesComponent
-  ],
+    PagesComponent  ],
   imports: [
     CommonModule ,
     SharedModule ,
     AppRoutingModule,
     FormsModule,
-    ComponentsModule,
-    ChartsModule
+    ComponentsModule
   ],
   exports:[
     DashboardComponent,
